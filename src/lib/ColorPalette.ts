@@ -18,9 +18,7 @@ export interface ColorObjectSettings {
 
 export class ColorPalette {
   private _h: number
-  private _s: number
-  private _l: number
-  private _accentDirection: AccentDirection = 'right'
+  private _accentDirection: AccentDirection = 'left'
   private _accentAmount: number = 120
   private _greySaturation: number = 6
   private _lightValues: number[] = [
@@ -50,7 +48,6 @@ export class ColorPalette {
   ]
 
   private _darkLightValues: number[] = [
-    77,
     70,
     63,
     56,
@@ -60,11 +57,12 @@ export class ColorPalette {
     28,
     21,
     14,
-    7
+    7,
+    4
   ]
 
   constructor(hex: string) {
-    [this._h, this._s, this._l] = hexToHSL(hex)
+    [this._h] = hexToHSL(hex)
   }
 
   private forEachLightValue = (callback: (light: number) => void, type?: 'grey'|'dark'): void => {

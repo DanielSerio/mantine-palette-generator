@@ -167,6 +167,14 @@
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-4.0.8.tgz#4b3c62e8a136de45fafbda8c3845dbdd63860d11"
   integrity sha512-f9DNbLB0KjVdTGxVeas/+9fNSiniv//Pm3SAm7NtaeCNX1EU3WECnjph+bnQx0YVwINCRVlLbyWwpkI64m132w==
 
+"@mantine/prism@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-4.0.8.tgz#7151943f3a116dcc406a39df15d5f725d1fc669d"
+  integrity sha512-WMXjtKwfk9qMFzqqV/XX4C8zDvFy3wUpBgFdSHAWYJlNwxqczEZ3J1NOS4KDX2Qx8z7zkdC8T7ZqPwuNGentNw==
+  dependencies:
+    clsx "^1.1.1"
+    prism-react-renderer "^1.2.1"
+
 "@mantine/styles@4.0.8":
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-4.0.8.tgz#bfe7e8dda1daf031d95d999f02ccb6a099674487"
@@ -2420,6 +2428,11 @@ pretty-error@^4.0.0:
     lodash "^4.17.20"
     renderkid "^3.0.0"
 
+prism-react-renderer@^1.2.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-1.3.1.tgz#88fc9d0df6bed06ca2b9097421349f8c2f24e30d"
+  integrity sha512-xUeDMEz074d0zc5y6rxiMp/dlC7C+5IDDlaEUlcBOFE2wddz7hz5PNupb087mPwTt7T9BrFmewObfCBuf/LKwQ==
+
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -2938,6 +2951,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+tabler-icons-react@^1.41.0:
+  version "1.41.0"
+  resolved "https://registry.yarnpkg.com/tabler-icons-react/-/tabler-icons-react-1.41.0.tgz#e6c7df60b30ffe4ab7701818deaa9d8fe550822f"
+  integrity sha512-A/ESVwCfPuH1hAgoaLJV3Kl+eTS3TbJLP1H+w4ztMajjHkQJIrMPJt6JJq3VlB1f86F7UgBw2PxlT7gfcjmTXA==
 
 tapable@^2.0.0, tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.1"

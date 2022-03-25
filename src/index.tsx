@@ -20,7 +20,7 @@ const ProviderWrapper = () => {
 
   return (
       <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
-        <MantineProvider theme={{ colors }}>
+        <MantineProvider theme={{ colorScheme, colors, primaryColor: 'brand' }}>
           <App />
         </MantineProvider>
       </ColorSchemeProvider>
